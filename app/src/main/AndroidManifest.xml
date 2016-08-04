@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sunghoon.hitaxi_new">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight">
+        <activity
+            android:name=".SignupActivity"
+            android:label="회원가입(Sign-up)">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChattingActivity"
+            android:label="방목록" />
+        <activity
+            android:name=".InquryActivity"
+            android:label="문의사항" />
+        <activity android:name=".MainTabActivity"></activity>
+    </application>
+
+</manifest>
